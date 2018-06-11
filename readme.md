@@ -1,7 +1,9 @@
 Use glassfish 4.1.1 at least.
 
 To compile and install, execute the following command:
-```$ mvn clean install```
+```
+$ mvn clean install
+```
 
 
 To run the code, execute the following commands:
@@ -11,7 +13,11 @@ asadmin deploy AuctionManager/auctionManager.bean/target/auctionManager.bean-1.0
 ```
 
 To execute the client of the DirectoryManager
-```$cd /DirectoryManager/administration.Client;mvn exec:java;```
+```
+$cd /DirectoryManager/administration.Client;mvn exec:java;
+```
 
 To execute the client of the AuctionManager
-```$cd ../../AuctionManager/auctionManager.client;mvn exec:java;```
+```
+$cd ../../AuctionManager/auctionManager.client;mvn exec:java;
+```
